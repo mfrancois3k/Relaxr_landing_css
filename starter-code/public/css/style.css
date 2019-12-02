@@ -1,0 +1,188 @@
+h1, h2{  
+    margin:0;
+}
+
+header{
+ background: url('/starter-code/images/header_bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    width: 100%;
+    height: 600px;
+    font-family: 'Open Sans', sans-serif;
+    vertical-align: top;
+    
+}
+
+header h1{
+padding: 20px 0 0 80px;
+font-family: 'Open Sans', sans-serif;
+font-weight:800;
+font-size: 48px;
+color: white;
+}
+
+header p{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: white;
+}
+
+header .button{
+    width: 150px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 800;
+    background-color: #f9e42e;
+}
+
+.button:hover{
+    opacity: .9;
+}
+    
+
+.benefits{
+    width: 100%;
+    height: 600px;
+    background-color:#f0efef;
+    
+}
+
+.benefits h2{
+    
+    padding-top: 80px;
+    margin-left: 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color:#033048
+    
+}
+
+.benefits p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    line-height: 1.2em;
+    margin-left: 80px;
+    width:60%;
+    color:#606161;
+}
+
+.benefits ul li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    color:#606161;
+    list-style:disc;
+    line-height: 1.2em;
+    margin-left: 100px;
+    width: 40%;
+    padding-top: 10px;    
+}
+
+#quote{
+    width: 100%;
+    margin: auto;
+    height: 350px;
+     background: url(images/testimonial_bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#quote p{
+    
+    color: white;
+    width: 40%;
+    margin: auto;
+    padding-top: 90px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 26px;
+    text-align: center;
+}
+
+#quote p span{
+    font-weight: 600;
+}
+
+#sign-up{
+    
+    width: 100%;
+    height: 150px;
+    background-color: #f9e42e;
+}
+
+#sign-up .button{
+    width: 150px;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    background-color: #f9e42e;
+    margin:0 auto;
+    background-color:#033048;
+    color: white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+footer{
+    text-align: center;
+    height: 300px;
+    background: #121212;
+}
+
+footer h1{
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #f9e42e;
+    padding-top: 50px;
+}
+
+footer img{
+    margin: 5px auto;
+    padding-top: 20px;
+}
+
+footer p{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 600;
+    padding-top: 50px;
+}
+    
+    
+
+    
+    
+    
+
+
+    
+    
+    
+    
+
+
+    
+
+    
+    
+    

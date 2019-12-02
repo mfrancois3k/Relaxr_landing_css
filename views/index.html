@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en"><!--  -->
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="Relaxr, Work, Productivity">
+
+		<title>Relaxr</title>
+
+		<!-- external CSS link -->
+<!--        <link rel="stylesheet" href="css/reset.css">-->
+<!--        <link rel="stylesheet" href="css/normalize.css">-->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,800' rel='stylesheet' type='text/css'>
+       <link rel="stylesheet" href="../starter-code/css/style.css">
+      </head>
+	<body>
+		<div id="container">
+			<header>
+				<h1>{{ h1 }}</h1>
+                <p>{{ text1 }}</p>
+                <div class="button">{{ button1 }}</div>
+			</header>
+            <div class="benefits">
+             <h2>{{ h2 }}</h2>
+                <p>{{ text2 }}</p>
+                <ul>
+                   {{ #packages }}
+                   
+                    <li>{{ bullet }}</li>
+                    
+                    {{ /packages }}
+                </ul>  
+            </div>
+            <div id="quote">
+            <p>{{ text3 }}<br><br><span>{{ span }}<span></p>
+            </div>
+            ,<div id="sign-up">
+                <div class="button">{{ button2 }}</div>
+            </div>
+			<footer>
+                <h1>{{ h1 }}</h1>
+                <a href="www.twitter.com"></a><img src="images/twitter.png" alt="twitter"></a>
+                <a href="www.facebook.com"><img src="" alt="facebook"></a>
+                <p>{{ copyRight }}</p>
+            </footer>
+		</div><!-- #container -->
+	</body>
+</html>
